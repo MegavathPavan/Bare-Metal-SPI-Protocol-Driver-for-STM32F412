@@ -102,4 +102,5 @@ data lines in the SPI are more.
 The SPI communication protocol was successfully implemented on the STM32F412 Nucleo board. The implementation was verified using an Arduino master device, and data was transmitted via SPI. Minor errors in received data (e.g., missing characters) were identified, which can be resolved using CRC for error checking.
 
 ## **References:**
-1. [Texas Instruments: SPI Protocol](https://www.ti.com/lit/ug/sprugp2a/sprugp2a.pdf)
+1. [STMicroelectronics: SPI Protocol(Chapter 26)](https://www.st.com/resource/en/reference_manual/rm0402-stm32f412-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+2. [Texas Instruments: SPI Protocol](https://www.ti.com/lit/ug/sprugp2a/sprugp2a.pdf)
