@@ -1,4 +1,4 @@
-# SPI Communication on STM32F412
+# SPI Communication on STM32F412 - Bare Metal Scratch Implementation
 
 ## **Aim:**
 Implement the SPI protocol in bare-metal programming on the STM32F412 microcontroller without using external libraries.
@@ -56,12 +56,12 @@ This project demonstrates how to implement the Serial Peripheral Interface (SPI)
 - Data received by the STM32F412 is displayed on a serial monitor (Putty or Arduino IDE).
 
 ### SPI Communication Setup
-![SPI Communication Setup](https://github.com/MegavathPavan/SPI-Protocol/blob/main/SPI_Demo_Board.png)
+![SPI Communication Setup](https://github.com/MegavathPavan/Bare-Metal-SPI-Protocol-Driver-for-STM32F412/blob/main/SPI_Demo_Board.png)
 
 ### SPI Working Demo(left-master, right-slave)
 Transmitter: Arduino Board(master)
 Receiver: ArduSTM32F412 Nucleo Board(master)
-![SPI Working Demo](https://github.com/MegavathPavan/SPI-Protocol/blob/main/stmspi-output%20demonstration.gif?raw=true)
+![SPI Working Demo](https://github.com/MegavathPavan/Bare-Metal-SPI-Protocol-Driver-for-STM32F412/blob/main/stmspi-output%20demonstration.gif?raw=true)
 
 ## **Comparison of SPI with Other Communication Protocols:**
 
